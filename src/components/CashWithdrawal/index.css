@@ -1,0 +1,72 @@
+/* Write your CSS here */
+.app-container {
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.sub-app-container {
+  background: #150b3e;
+  padding: 25px;
+  border-radius: 12px;
+  width: 80%;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profile-icon {
+  background: #c7d2fe;
+  color: #585076;
+  font-size: 15px;
+  padding-left: 16px;
+  padding-top: 10px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.profile-name {
+  color: #d4d2db;
+  font-size: 24px;
+}
+
+.desc {
+  color: #585076;
+  flex-grow: 1;
+}
+
+.balance-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.balance {
+  color: #d4d2db;
+  font-size: 35px;
+}
+
+.currency {
+  margin: 0px;
+  align-self: flex-end;
+}
+
+.denominations-container {
+  list-style-type: none;
+  padding: 0px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
